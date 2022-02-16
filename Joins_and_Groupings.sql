@@ -72,3 +72,7 @@ JOIN orderdetails od ON o.orderNumber = od.orderNumber
 GROUP BY `MONTH`, `YEAR` 
 ORDER BY o.orderDate;
 
+
+select * from payments p ORDER BY p.paymentDate ;
+
+
